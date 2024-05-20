@@ -138,7 +138,7 @@ declare const Carousel: React.ComponentType<CarouselProps>
 
 declare const Modal: React.ComponentType<ModalProps>
 
-declare const ModalGateway: React.ComponentType<{}>
+declare const ModalGateway: React.ComponentType<{children:any}>
 
 export default Carousel
 export { Modal, ModalGateway }
